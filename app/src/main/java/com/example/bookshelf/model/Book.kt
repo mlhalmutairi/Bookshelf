@@ -1,3 +1,4 @@
 package com.example.bookshelf.model
 
-data class Book( var bookTitle : Int)
+data class Book( var bookTitle : Int,
+ var bookImage : Int)
