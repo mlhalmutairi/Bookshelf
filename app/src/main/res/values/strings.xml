@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Bookshelf</string>
+
+
+    <string name="text1">1-Add RecyclerView library in Gradle file </string>
+
+    <string
+
+        name="text2">2-Add RecyclerView element in your Activity Main layout file
+</string>
+
+    <string name="text3">3-Design item layout</string>
+
+
+    <string
+        name="text4">4-Create Adapter class
+</string>
+
+
+    <string name="text5">5-Create ViewHolder class
+</string>
+
+
+    <string name="text6">6-Create Model class
+</string>
+
+
+    <string name="text7">7-Create Data source class
+</string>
+
+
+    <string name="text8">8-Link adapter and RecyclerView in Activity Main
+</string>
+
+
+
+
+</resources>
