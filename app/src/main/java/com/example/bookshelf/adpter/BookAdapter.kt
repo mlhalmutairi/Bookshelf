@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bookshelf.R
 import com.example.bookshelf.model.Book
@@ -25,6 +26,10 @@ class BookAdapter(private val context: Context,
         val item = dataset[position]
         holder.bookTitle.text = context.resources.getString(item.bookTitle)
         holder.bookImage.setImageResource(item.bookImage)
+
+        holder.itemView.setOnClickListener {
+            Toast.makeText(context, item.bookTitle, Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun getItemCount() = dataset.size
